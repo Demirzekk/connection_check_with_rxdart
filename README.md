@@ -12,5 +12,13 @@ flutter run
 ## Screenshots
 
 ### Wallet
-<img src="assets/screenshot.jpeg" />
-<img src="assets/screenshot2.jpeg" />
+<body>
+  <div class="container">
+    <div class="image-container">
+      <img src="screenshot.jpeg" alt="Screenshot 1">
+    </div>
+    <div class="image-container">
+      <img src="screenshot2.jpeg" alt="Screenshot 2">
+    </div>
+  </div>
+</body>
