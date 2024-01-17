@@ -31,7 +31,6 @@ class NoConnection extends StatelessWidget {
               style: TextStyle(fontSize: 16, color: Colors.white),
             ),
           ),
-          // Got to settings button
           const SizedBox(
             height: 15,
           ),
@@ -46,7 +45,7 @@ class NoConnection extends StatelessWidget {
     );
   }
 
-  Future _launchInternetSettings() async {
+  Future<void> _launchInternetSettings() async {
     if (Platform.isAndroid) {
       await const OpenSettingsPlusAndroid().wifi();
       return;
