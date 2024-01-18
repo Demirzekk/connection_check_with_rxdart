@@ -16,7 +16,7 @@ flutter run
       <img src="assets/screenshot.jpeg" alt="Screenshot 1">
     </div>
     <div class="image-container">
-      <img src="assets/screenshot.jpeg" alt="Screenshot 2">
+      <img src="assets/screenshot2.jpeg" alt="Screenshot 2">
     </div>
   </div>
 
